@@ -6,9 +6,9 @@ div, body {
     font-family: 'Open Sans', sans-serif;
 }
 body {
-	background: -webkit-linear-gradient(180deg, #1F7A99, #1A6680);
-	background: -moz-linear-gradient(180deg, #1F7A99, #1A6680);
-	background: linear-gradient(180deg, #23a6df, #2095C9);
+    background: -webkit-linear-gradient(180deg, #1F7A99, #1A6680);
+    background: -moz-linear-gradient(180deg, #1F7A99, #1A6680);
+    background: linear-gradient(180deg, #1F7A99, #1A6680);
 	background-color: #1F7A99;
 	position: absolute;
 	top: 0; left: 0;
@@ -26,11 +26,12 @@ header {
 	top: 10%;
 }
 nav {
-	top:17%;
+	top:10%;
 }
 nav a, nav a:visited {
 	color: #CCCCCC;
 	text-decoration: none;
+    display: block;
 }
 nav a:hover {
 	color: #f6f4f2;
