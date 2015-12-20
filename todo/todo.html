@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sub.css">
+    <script src="todo.js" charset="UTF-8"></script>
+    <title></title>
+    <body>
+        <section>
+            <header>
+                <p>To-Do List</p>
+                <button id="clear">Clear all completed tasks</button>
+            </header>
+            <section id="s_todos">
+                <ul id="todos">
+
+                </ul>
+                <input type="text" id="newTodo"
+                       onkeydown="if (event.keyCode == 13) document.getElementById('add').click()"/>
+                <button id="add">+</button>
+            </section>
+        </section>
+    </body>
+</html>

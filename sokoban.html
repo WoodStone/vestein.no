@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>vestein.no</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="sokoban.css">
+        <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+                <script>
+                    function launchApplication(jnlpfile) {
+                        dtjava.launch(            {
+                                url : 'Sokoban.jnlp'
+                            },
+                            {
+                                javafx : '8.0+'
+                            },
+                            {}
+                        );
+                        return false;
+                    }
+                </script>
+
+                <script>
+                    function javafxEmbed_fxApplication() {
+                        dtjava.embed(
+                            {
+                                id : 'fxApplication',
+                                url : 'Sokoban.jnlp',
+                                placeholder : 'javafx-app-placeholder',
+                                width : 740,
+                                height : 740
+                            },
+                            {
+                                javafx : '8.0+'
+                            },
+                            {}
+                        );
+                    }
+                    <!-- Embed FX application into web page once page is loaded -->
+                    dtjava.addOnloadCallback(javafxEmbed_fxApplication);
+                </script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="menu">
+                <a id="back" href="/">back</a>
+            </div>
+            <div id='javafx-app-placeholder'></div>
+        </div>
+
+    </body>
+
+</html>

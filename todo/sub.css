@@ -1,0 +1,55 @@
+* {
+    overflow: visible;
+}
+header {
+    top: 0;
+    position: relative;
+}
+header p {
+    font-size: 1.75em;
+    font-weight: bold;
+    margin: 0;
+}
+header button {
+    font-size: 0.9em;
+    color: #CCCCCC;
+    border-width: 0;
+    background-color: #888888;
+    position: relative;
+}
+ul {
+    color: #CCCCCC;
+    font-size: 30px;
+}
+#s_todos {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 1em;
+    left: 5%;
+}
+#newTodo, #add {
+    margin-top: 20px;
+}
+#newTodo {
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+}
+#add {
+    width: 10%;
+    height: 10%;
+    font-size: 1.5em;
+    color: #CCCCCC;
+    border-width: 0;
+    background-color: #888888;
+    margin-bottom: 2em;
+}
+#clear:hover, #add:hover {
+    color: #f6f4f2;
+}
+.checkbox {
+    width: 2em;
+    height: 2em;
+    margin-top:10px;
+}

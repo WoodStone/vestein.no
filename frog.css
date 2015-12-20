@@ -1,0 +1,11 @@
+#sitat_frog {
+	width: auto;
+	position: absolute;
+	left: 20%;
+	top: 10%;
+	color: #cfcdcb;
+	font-weight: 300;
+	font-size: 32px;
+	font-style: italic;
+	text-shadow: 2px 2px #1b1a19;
+}
