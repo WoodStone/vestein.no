@@ -2,28 +2,28 @@
  * Created by vestein on 20.12.2015.
  */
 
-var menu = {
-    home: {
+var menu = [
+    {
         href: '/index.html',
         display: '<b>Vestein Dahl</b>'
     },
-    about: {
+    {
         href: "/about.html",
         display: "about"
     },
-    twitter: {
+    {
         href: "http://www.twitter.com/woodstonevalley",
         display: "twitter"
     },
-    github: {
+    {
         href: "https://www.github.com/woodstone",
         display: "github"
     },
-    sokoban: {
+    {
         href: "/sokoban.html",
         display: "sokoban"
     }
-};
+];
 
 onload = function() {
     var menuHtml = '';
