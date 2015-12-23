@@ -20,7 +20,7 @@ var menu = [
         display: "github"
     },
     {
-        href: "/sokoban.html",
+        href: "/sokoban/sokoban.html",
         display: "sokoban"
     }
 ];
