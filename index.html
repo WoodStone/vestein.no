@@ -1,24 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <meta charset="utf-8">
-  <title>vestein.no</title>
-  <link rel="stylesheet" href="style/normalize.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700,400' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="style/main.css">
-  <link rel="stylesheet" href="style/snow.css">
-  <script src="scripts/menu.js"></script>
-  <script src="scripts/snow.js"></script>
-  <body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>vestein.no</title>
+    <!--Normalize-->
+    <link rel="stylesheet" href="style/normalize.css">
+    <!--Open Sans-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400' rel='stylesheet' type='text/css'>
+    <!--Font Awsome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!--Material Design Lite-->
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.blue_grey-indigo.min.css" />
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Custom Styling-->
+    <link rel="stylesheet" href="style/main.css">
 
-    <nav id="nav">
-    </nav>
+    <body>
+        <div class="mdl-layout mdl-js-layout ">
+            <!--Navbar-->
+            <header class="mdl-layout__header mdl-layout__header-scroll">
+                <div class="mdl-layout__header-row">
+                    <span class="mdl-layout-title"></span>
+                    <div class="mdl-layout-spacer"></div>
+                    <nav class="mdl-navigation nav">
+                        <!--Script-->
+                    </nav>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">vestein.no</span>
+                <nav class="mdl-navigation nav">
+                    <!--Script-->
+                </nav>
+            </div>
+            <!--Main content-->
+            <main class="content mdl-layout__content">
+                <section class="medium">
+                    <div class="mdl-typography--text-center vno-padding--2">
+                        <h1>
+                            whoami
+                        </h1>
+                    </div>
+                </section>
+                <div class="mdl-grid light">
+                    <div class="mdl-cell mdl-cell--2-col"></div>
+                    <div class="mdl-cell mdl-cell--3-col">
+                        <img class="me" src="me.jpg"/>
+                    </div>
+                    <div class="mdl-cell mdl-cell--5-col">
+                        <ul>
+                            <li>Programmer</li>
+                            <li>Student at the Norwegian University of Science and Technology</li>
+                        </ul>
+                    </div>
+                    <div class="mdl-cell mdl-cell--2-col"></div>
+                </div>
+                <section class="medium vno-padding--5">
+                    <div class="mdl-typography--text-center">
+                        <p>What do you say to a kid who's seen too much?</p>
+                        <p>Holy shite this works! Why does it work?</p>
+                    </div>
 
-    <section id="content">
-        <p>gjerpjg pae gaejrgopj paj epjg e</p>
-    </section>
+                </section>
+                <!--Footer-->
+                <footer class="mdl-mega-footer dark">
+                    <div class="mdl-mega-footer__top-section">
+                        <div class="mdl-mega-footer__left-section">
+                            <div>
+                                <a href="https://github.com/woodstone" target="_blank" title="View on GitHub"><i class="fa fa-github fa-3x"></i></a>
+                                <a href="http://www.twitter.com/woodstonevalley" target="_blank" title="Tweet tweet"><i class="fa fa-twitter fa-3x"></i></a>
+                            </div>
+                        </div>
 
-    <footer>
-        What do you say to a kid who's seen too much?
-    </footer>
-  </body>
+                    </div>
+                    <div class="mdl-mega-footer__middle-section">
+                        <div class="mdl-mega-footer__left-section">
+
+                        </div>
+                        <div class="mdl-mega-footer__right-section">
+
+                        </div>
+                    </div>
+                    <div class="mdl-mega-footer__bottom-section">
+                        <div class="mdl-mega-footer__left-section">
+                            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+                        </div>
+                        <div class="mdl-mega-footer__right-section">
+
+                        </div>
+                    </div>
+                </footer>
+            </main>
+        </div>
+        <!--Scripts-->
+            <!--Menu script-->
+            <script src="scripts/menu.js"></script>
+    </body>
 </html>

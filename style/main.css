@@ -1,73 +1,72 @@
-* {
-	overflow: hidden;
-}
 div, body {
-	margin: 0; padding: 0; border: 0;
+    margin: 0; padding: 0; border: 0;
     font-family: 'Open Sans', sans-serif;
 }
-body {
-    background: -webkit-linear-gradient(180deg, #1F7A99, #1A6680);
-    background: -moz-linear-gradient(180deg, #1F7A99, #1A6680);
-    background: linear-gradient(180deg, #1F7A99, #1A6680);
-	background-color: #1F7A99;
-	position: absolute;
-	top: 0; left: 0;
-	width: 100%; height: 100%;
-}
-nav {
-	position: absolute;
-	width: auto;
-	left: 5%;
-    top: 5%;
-	font-size: 1.5em;
-	color: #E6E6E6;
-	text-align: left;
-}
-nav a:first-child {
-    font-size: 1.5em;
-    margin-bottom: 1em;
-}
-nav a, nav a:visited {
-	color: #CCCCCC;
-	text-decoration: none;
-    display: block;
-}
-nav a:hover {
-	color: #f6f4f2;
-}
-footer {
-	width: auto;
-	position: absolute;
-	bottom: 10%; right: 10%;
-	color: #cfcdcb;
-	font-weight: 300;
-	font-size: 32px;
-	font-style: italic;
-	text-align: right;
-	text-shadow: 1px 1px #1b1a19;
-}
-a#back {
-    display: block;
-    text-align: right;
-}
 section {
-    position: absolute;
-    left: 20%;
-    top: 15%;
-    width: 800px;
-    color: #EEEEEE;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+    display: block;
 }
-@media (orientation: portrait) {
-	#frog {
-		height: 20%;
-	}
-	#menu {
-		top: 5%;
-		left: 0; right: 0;
-		text-align: center;
-		font-size: 30px;
-	}
+section h1 {
+    margin: 0;
+}
+.mdl-layout__header {
+    background-color: #37474f;
+}
+.mdl-layout__drawer-button {
+    color: #fff;
+}
+.mdl-mega-footer a {
+    color: #CCCCCC;
+}
+.mdl-mega-footer a:hover {
+    color: #2196F3;
+}
+header .mdl-navigation a {
+    font-size: 2em;
+    margin-bottom: 4px;
+    border-bottom: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #37474f;
+}
+header .mdl-navigation a:hover {
+    border-bottom-color: #fff;
+}
+.mdl-mega-footer__bottom-section > .mdl-mega-footer__left-section {
+    font-size: 0.75em;
+}
+.light {
+    background-color: #fff;
+    color: black;
+}
+.medium {
+    background-color: #fba827;
+    color: #37474f;
+}
+.dark {
+    background-color: #37474f;
+    color: #CCCCCC;
+}
+.me {
+    width: 256px;
+    height: 256px;
+    border-radius: 128px;
+}
+.vno-padding--1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.vno-padding--2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.vno-padding--3 {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.vno-padding--4 {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.vno-padding--5 {
+    padding-top: 5em;
+    padding-bottom: 5em;
 }

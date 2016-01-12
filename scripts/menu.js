@@ -5,11 +5,11 @@
 var menu = [
     {
         href: '/index.html',
-        display: '<b>Vestein Dahl</b>'
+        display: 'home'
     },
     {
-        href: "/about.html",
-        display: "about"
+        href: "/projects.html",
+        display: "projects"
     },
     {
         href: "http://www.twitter.com/woodstonevalley",
@@ -18,19 +18,30 @@ var menu = [
     {
         href: "https://www.github.com/woodstone",
         display: "github"
-    },
-    {
-        href: "/sokoban/sokoban.html",
-        display: "sokoban"
     }
 ];
 
-onload = function() {
-    var menuHtml = '';
-    for (link in menu) {
-        var linkHtml;
-        linkHtml = '<a href="' + menu[link].href + '">' + menu[link].display + '</a>';
-        menuHtml += linkHtml;
+function createLink(href, display, classes) {
+    var link = document.createElement('a');
+    link.className = classes;
+    link.href = href;
+    link.innerHTML = display;
+    return link;
+}
+
+function func() {
+    for (var i = 0; i < menu.length; i++) {
+        var link;
+        if (window.location.href.indexOf(menu[i].href) != -1) {
+            link = createLink(menu[i].href, menu[i].display, 'mdl-navigation__link active');
+        } else {
+            link = createLink(menu[i].href, menu[i].display, 'mdl-navigation__link');
+        }
+        var elements = document.getElementsByClassName('nav');
+        for (var j = 0; j < elements.length; j++) {
+           elements[j].appendChild(link.cloneNode(true));
+        }
     }
-    document.getElementById('nav').innerHTML = menuHtml;
-};
+}
+
+func();
