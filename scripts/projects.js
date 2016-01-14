@@ -37,7 +37,7 @@ function createMediaElement(key, media) {
 
     mediaDiv.className = 'mdl-card__media';
     mediaDiv.id = key;
-    mediaDiv.style.backgroundImage = 'url("' + media + '")';
+    mediaDiv.style.backgroundImage = 'url("images/' + media + '")';
     mediaDiv.style.backgroundPosition = 'center';
     mediaDiv.style.backgroundSize = 'cover';
 
