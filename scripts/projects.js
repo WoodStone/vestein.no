@@ -3,7 +3,7 @@
  */
 
 $(function() {
-    $.getJSON("projects/projects.json", function(data) {
+    $.getJSON("data/projects.json", function(data) {
         $.each( data, function(key, val) {
             $('#projects').append(createCell(key, val));
         });
