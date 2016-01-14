@@ -14,5 +14,21 @@
     "buttons": {
       "Github": "http://github.com/woodstone/sokoban"
     }
+  },
+  "effective-octo-giggle": {
+    "media": "eog.png",
+    "title": "effective-octo-giggle",
+    "text": "Lalalalal",
+    "buttons": {
+      "Github": "http://github.com/woodstone/effective-octo-giggle"
+    }
+  },
+  "WSV8080": {
+    "media": "wsv8080.png",
+    "title": "WSV8080",
+    "text": "Put some text here",
+    "buttons": {
+      "github": "http://github.com/woodstone/wsv8080"
+    }
   }
 }
