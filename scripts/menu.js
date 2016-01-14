@@ -4,11 +4,11 @@
 
 var menu = [
     {
-        href: '/',
+        href: './',
         display: 'home'
     },
     {
-        href: "/projects",
+        href: "projects",
         display: "projects"
     },
     {
