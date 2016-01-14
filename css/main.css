@@ -55,6 +55,9 @@ header .mdl-navigation a:hover {
     margin: 0 auto;
     display: block;
 }
+.von-card {
+    width: 100%;
+}
 .von-grid {
     max-width: 1280px;
 }

@@ -1,0 +1,18 @@
+{
+  "vesteino": {
+    "media": "vesteinno.png",
+    "title": "Vestein.no",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...",
+    "buttons": {
+      "Github": "http://github.com/woodstone/vestein.no"
+    }
+  },
+  "sokoban": {
+    "media": "sokoban.png",
+    "title": "Sokoban",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...",
+    "buttons": {
+      "Github": "http://github.com/woodstone/sokoban"
+    }
+  }
+}
