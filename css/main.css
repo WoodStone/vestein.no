@@ -36,29 +36,35 @@ header .mdl-navigation a:hover {
 .is-small-screen > .mdl-layout__drawer-button > .material-icons {
     color: #37474f;
 }
-.light {
+.vno-light {
     background-color: #fff;
     color: black;
 }
-.medium {
+.vno-medium {
     background-color: #fba827;
     color: #37474f;
 }
-.dark {
+.vno-dark {
     background-color: #37474f;
     color: #CCCCCC;
 }
-.me {
+.vno-me {
     width: 256px;
     height: 256px;
     border-radius: 128px;
     margin: 0 auto;
     display: block;
 }
-.von-card {
+.vno-font-aw a {
+    color: #37474f;
+}
+.vno-font-aw a:hover {
+    color: #2196F3;
+}
+.vno-card {
     width: 100%;
 }
-.von-grid {
+.vno-grid {
     max-width: 1280px;
 }
 .vno-padding--1 {

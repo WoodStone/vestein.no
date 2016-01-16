@@ -11,7 +11,7 @@ $(function() {
 });
 
 var cellClass = 'mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone';
-var cardClass = 'mdl-card von-card mdl-shadow--2dp';
+var cardClass = 'mdl-card vno-card mdl-shadow--2dp';
 var mediaClass = 'mdl-card__media';
 var titleClass = 'mdl-card__title';
 var titleH2Class = 'mdl-card__title-text';
