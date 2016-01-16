@@ -1,6 +1,9 @@
 {
   "vesteino": {
-    "media": "vesteinno.png",
+    "media": {
+      "webp": "vesteinno.webp",
+      "png": "vesteinno.png"
+    },
     "title": "Vestein.no",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...",
     "buttons": {
@@ -8,7 +11,10 @@
     }
   },
   "sokoban": {
-    "media": "sokoban.png",
+    "media": {
+      "webp": "sokoban.webp",
+      "png": "sokoban.png"
+    },
     "title": "Sokoban",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis pellentesque lacus eleifend lacinia...",
     "buttons": {
@@ -16,7 +22,10 @@
     }
   },
   "effective-octo-giggle": {
-    "media": "eog.png",
+    "media": {
+      "webp": "eog.webp",
+      "png": "eog.png"
+    },
     "title": "effective-octo-giggle",
     "text": "Lalalalal",
     "buttons": {
@@ -24,7 +33,10 @@
     }
   },
   "WSV8080": {
-    "media": "wsv8080.png",
+    "media": {
+      "webp": "wsv8080.webp",
+      "png": "wsv8080.png"
+    },
     "title": "WSV8080",
     "text": "Put some text here",
     "buttons": {
